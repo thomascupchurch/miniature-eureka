@@ -13,28 +13,18 @@ router.get('/api/notes', (req, res) => {
 router.post('/api/notes', (req, res) => {
     // receive a new note to save on the request body, 
     const newNote = {text: req.body, id: uuid()};
+    res.json(newNote);
     // add it to the db.json file,
-    
+
     // then return the new note to the client
     
     
     // give each note a unique id when it's saved (research npm packages) npm install uniqid
     
-    
-    
-    
-    // req.body.id = animals.length.toString();
-  
-    // // if any data in req.body is incorrect. send 400 error back
-    // if (!validateAnimal(req.body)) {
-    //   res.status(400).send('The animal is not properly formatted.');
-    // } else {
-    //   // add animal to json file and animals array in this function
-    //   const animal = createNewAnimal(req.body, animals);
-    //   res.json(animal);
-    // }
   });
   
+
+//   DELETE /api/notes/:id should receive a query parameter containing the id of a note to delete. In order to delete a note, you'll need to read all notes from the db.json file, remove the note with the given id property, and then rewrite the notes to the db.json file.
 
 
 // router.use(zookeeperRoutes);
