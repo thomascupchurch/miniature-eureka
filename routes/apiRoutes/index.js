@@ -12,7 +12,7 @@ router.get('/api/notes', (req, res) => {
 
 router.post('/api/notes', (req, res) => {
     // receive a new note to save on the request body, 
-    const newNote = {text: req.body, id: uuid()};
+    const newNote = {text: req.body, id: uuidv4()};
     res.json(newNote);
     // add it to the db.json file,
 
