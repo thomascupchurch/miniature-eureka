@@ -14,10 +14,10 @@ bootstrap
 heroku
 
 ## Screenshot
-[screenshot](')
+![screenshot](public/assets/screenshot/notetaker-screenshot.png)
 
 ## Deployed Link
- https://thomascupchurch.github.io/miniature-eureka/
+https://miniature-eureka-notetaker.herokuapp.com/notes
 
 ## Credits
 Made by Thomas Upchurch
