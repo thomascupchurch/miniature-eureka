@@ -14,10 +14,10 @@ bootstrap
 heroku
 
 ## Screenshot
-
+[screenshot](')
 
 ## Deployed Link
-
+ https://thomascupchurch.github.io/miniature-eureka/
 
 ## Credits
 Made by Thomas Upchurch
